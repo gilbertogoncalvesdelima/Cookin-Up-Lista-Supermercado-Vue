@@ -439,3 +439,10 @@ Link, URL, Funcionando
 ```sh
 https://gilberto-goncalves-lima-cookinup-vue.netlify.app/
 ```
+
+Certificado, Alura, Vue
+
+```sh
+https://drive.google.com/drive/folders/1UhelYKsbaRLw4JX66Eomg--gEQBn-tC1
+```
+
