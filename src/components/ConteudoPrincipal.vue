@@ -40,18 +40,13 @@ export default {
 </script>
 
 <template>
-  <!-- Template do componente -->
   <main class="conteudo-principal">
-    <!-- Componente para exibir a lista de ingredientes selecionados -->
     <SuaLista :ingredientes="ingredientes" />
 
-    <!-- Componente que mantém o estado dos componentes filhos -->
     <KeepAlive include="SelecionarIngredientes">
-      <!-- Componente para selecionar ingredientes -->
       <SelecionarIngredientes v-if="conteudo === 'SelecionarIngredientes'" @adicionar-ingrediente="adicionarIngrediente"
         @remover-ingrediente="removerIngrediente" @buscar-receitas="navegar('MostrarReceitas')" />
 
-      <!-- Componente para mostrar receitas -->
       <MostrarReceitas v-else-if="conteudo === 'MostrarReceitas'" :ingredientes="ingredientes"
         @editar-receitas="navegar('SelecionarIngredientes')" />
     </KeepAlive>
