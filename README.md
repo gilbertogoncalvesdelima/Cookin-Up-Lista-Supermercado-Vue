@@ -45,7 +45,6 @@ Diferenciar estilos “escopados” de estilos normais:
 Ao utilizar o atributo scoped em uma tag <style>, os estilos se limitam ao escopo do arquivo atual. Isso quer dizer que eles não vão afetar outros componentes, evitando conflitos de código CSS.
 Ainda é possível utilizar tags <style> normais, o que fará com que seus estilos sejam globais.
 
-
 ```js
 npm create vue@3.7.3
 ```
@@ -108,7 +107,6 @@ Não
 ```
 
 Fim, aparecera assim
-
 
 ```js
 Scaffolding project in C:\Users\User\Documents\Alura\Front-End\Vue\Projeto\Projeto-Vue\cookin-up...
@@ -220,13 +218,11 @@ Portanto, é padrão utilizar o <style scoped>, pois auxilia bastante no nosso d
 
 Mas como realmente funciona internamente? Vamos abrir o navegador e inspecionar o elemento "Texo do App.vue", que está vermelho. Podemos usar a tecla "F12" para abrir o DevTools ou usar as teclas "Ctrl + Shift + C "e passar o cursor por cima de "Texto do App.vue".
 
-
 ```sh
 <h1 data-v-7a7a37b1 class="titulo"> Texto do App.vue</h1>
 ```
 
 No DevTools, podemos visualizar que a tag <h1> está com um atributo chamado data, acompanhado de uma sequência de caracteres. Abaixo, o estilo de cor vermelha está associado à classe titulo e, ao mesmo tempo, identificando este atributo data.
-
 
 ```sh
 .titulo[data-v-7a7a37b1] {
@@ -302,7 +298,6 @@ Exemplo, se você pesquisar em (temperos e especiarias Orégano), (Óleos, Gordu
 Você irá ver que ele ira buscar a imagem conforme está em receitas.json
 
 receitas.json
-
 
 ```sh
 [
@@ -445,4 +440,5 @@ Certificado, Alura, Vue
 ```sh
 https://drive.google.com/drive/folders/1UhelYKsbaRLw4JX66Eomg--gEQBn-tC1
 ```
+
 
