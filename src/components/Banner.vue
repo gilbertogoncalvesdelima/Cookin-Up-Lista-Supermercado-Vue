@@ -5,7 +5,7 @@
 
       <p class="cabecalho-lg frase-cabecalho">
         <span class="texto-verde">Um banquete de ideias para</span>
-        despertar o chef que há em você!
+        despertar o chef que há em você! xxxxx
       </p>
 
       <p class="subtitulo-lg">
