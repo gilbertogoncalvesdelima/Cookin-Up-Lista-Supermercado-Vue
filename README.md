@@ -298,8 +298,11 @@ https://gist.githubusercontent.com/antonio-evaldo/002ad55e1cf01ef3fc6ee4feb91529
 ```sh
 https://gist.githubusercontent.com/antonio-evaldo/002ad55e1cf01ef3fc6ee4feb9152964/raw/bf463b47860043da3b3604ca60cffc3ad1ba9865/categorias.json
 ```
+Exemplo, se você pesquisar em (temperos e especiarias Orégano), (Óleos, Gorduras e Vinagres, Alho), (Óleos, Gorduras e Vinagres, Azite de oliva)
+Você irá ver que ele ira buscar a imagem conforme está em receitas.json
 
 receitas.json
+
 
 ```sh
 [
@@ -429,4 +432,10 @@ receitas.json
     "imagem": "mousse_de_chocolate.png"
   }
 ]
+```
+
+Link, URL, Funcionando
+
+```sh
+https://gilberto-goncalves-lima-cookinup-vue.netlify.app/
 ```
