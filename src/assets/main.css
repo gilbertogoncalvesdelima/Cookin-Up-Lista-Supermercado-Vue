@@ -1,4 +1,5 @@
 :root {
+  /* Definição de variáveis de cor */
   --ocre: #D1451E;
   --coral: #F0633C;
   --coral-claro: #FFDBD1;
@@ -9,10 +10,12 @@
   --cinza-claro: #EFEFEF;
   --branco: #FFF;
 
-  --font-family-padrao: Nunito Sans, sans-serif;
-  --cabecalhos: Paytone One, sans-serif;
+  /* Definição de variáveis de fonte */
+  --font-family-padrao: 'Nunito Sans', sans-serif;
+  --cabecalhos: 'Paytone One', sans-serif;
 }
 
+/* Reset de estilos para todos os elementos */
 *,
 *::before,
 *::after {
@@ -21,16 +24,20 @@
   padding: 0;
 }
 
-ul, li {
+/* Remoção de estilos padrão para listas */
+ul,
+li {
   list-style: none;
 }
 
+/* Estilo básico para botões */
 button {
   border: 0;
   background-color: inherit;
   font: inherit;
 }
 
+/* Estilos globais para o corpo da página */
 body {
   min-height: 100vh;
   color: var(--creme);
@@ -41,33 +48,40 @@ body {
   background: url('./imagens/fundo-banner.png'), var(--verde-escuro, #263A29);
 }
 
+/* Estilos para diferentes tamanhos de cabeçalho e texto */
 .cabecalho-lg {
   font-family: var(--cabecalhos);
   font-size: 3.35625em;
-  line-height: 120%; /* 4.0275em */
+  line-height: 120%;
+  /* 4.0275em */
 }
 
 .cabecalho {
   font-family: var(--cabecalhos);
   font-size: 2.75em;
-  line-height: 120%; /* 3.3em */
+  line-height: 120%;
+  /* 3.3em */
 }
 
 .subtitulo-lg {
   font-size: 1.9375em;
-  line-height: 150%; /* 2.90625em */
+  line-height: 150%;
+  /* 2.90625em */
 }
 
 .paragrafo-lg {
   font-size: 1.375em;
-  line-height: 150%; /* 2.90625em */
+  line-height: 150%;
+  /* 2.90625em */
 }
 
 .paragrafo {
   font-size: 1.125em;
-  line-height: 150%; /* 1.6875em */
+  line-height: 150%;
+  /* 1.6875em */
 }
 
+/* Estilos responsivos para telas menores que 767px */
 @media only screen and (max-width: 767px) {
   .cabecalho-lg {
     font-size: 2.75em;

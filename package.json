@@ -1,25 +1,61 @@
 {
+  // Nome do projeto
   "name": "cookin-up",
+
+  // Versão inicial do projeto
   "version": "0.0.0",
+
+  // Indica que o projeto é privado e não deve ser publicado no registro público do npm
   "private": true,
+
+  // Scripts que podem ser executados usando 'npm run'
   "scripts": {
+    // Inicia o servidor de desenvolvimento Vite
     "dev": "vite",
+
+    // Realiza a verificação de tipos e, em seguida, executa a construção da aplicação
     "build": "run-p type-check build-only",
+
+    // Inicia um servidor de pré-visualização da construção da aplicação
     "preview": "vite preview",
+
+    // Apenas realiza a construção da aplicação
     "build-only": "vite build",
+
+    // Realiza a verificação de tipos usando 'vue-tsc'
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
   },
+
+  // Dependências de produção
   "dependencies": {
+    // Vue.js, a biblioteca principal do projeto
     "vue": "^3.3.4"
   },
+
+  // Dependências de desenvolvimento
   "devDependencies": {
+    // Configurações do TypeScript para o ambiente Node.js versão 18
     "@tsconfig/node18": "^18.2.0",
+
+    // Tipos do TypeScript para Node.js
     "@types/node": "^18.17.5",
+
+    // Plugin Vite para suporte ao Vue.js
     "@vitejs/plugin-vue": "^4.3.1",
+
+    // Configurações do TypeScript específicas para projetos Vue
     "@vue/tsconfig": "^0.4.0",
+
+    // Utilitário para executar vários scripts em paralelo ou sequencialmente
     "npm-run-all": "^4.1.5",
+
+    // Versão do TypeScript usada no projeto
     "typescript": "~5.1.6",
+
+    // O pacote principal Vite que suporta o desenvolvimento rápido de aplicativos front-end
     "vite": "^4.4.9",
+
+    // Utilitário para compilação TypeScript específica para projetos Vue
     "vue-tsc": "^1.8.8"
   }
 }
